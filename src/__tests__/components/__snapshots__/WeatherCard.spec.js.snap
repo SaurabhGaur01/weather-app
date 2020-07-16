@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherCard Component should render correctly 1`] = `
+<React.Fragment>
+  <div
+    className="makeStyles-card-3"
+  >
+    <div
+      className="weather-card makeStyles-cardContainer-6"
+    >
+      <r
+        activeItemIndex={0}
+        activePosition="left"
+        alwaysShowChevrons={false}
+        calculateActualTranslateX={[Function]}
+        chevronWidth={60}
+        classes={Object {}}
+        disableSwipe={false}
+        enablePlaceholder={false}
+        firstAndLastGutter={false}
+        gutter={1}
+        infiniteLoop={false}
+        leftChevron={
+          <IconButton
+            aria-label="backward"
+            color="primary"
+            component="span"
+          >
+            <ArrowBackIos
+              color="primary"
+            />
+          </IconButton>
+        }
+        numberOfCards={3}
+        numberOfPlaceholderItems={0}
+        onActiveStateChange={null}
+        outsideChevron={true}
+        placeholderItem={null}
+        requestToChangeActive={[Function]}
+        rightChevron={
+          <IconButton
+            aria-label="forward"
+            color="primary"
+            component="span"
+          >
+            <ArrowForwardIos
+              color="primary"
+            />
+          </IconButton>
+        }
+        showSlither={false}
+        slidesToScroll={2}
+      >
+        <Card
+          className="makeStyles-root-1"
+          key="0"
+        >
+          <CardActionArea
+            onClick={[Function]}
+          >
+            <CardContent>
+              <Typography
+                component="h2"
+                variant="h6"
+              />
+              <Typography
+                className="makeStyles-title-2"
+                color="textSecondary"
+              >
+                Avg Temp:
+              </Typography>
+              <Typography
+                component="h2"
+                variant="h6"
+              >
+                 
+                F
+              </Typography>
+              <Typography
+                className="makeStyles-title-2"
+                color="textSecondary"
+              >
+                Weather:
+              </Typography>
+              <Typography
+                gutterBottom={true}
+                variant="subtitle2"
+              />
+            </CardContent>
+          </CardActionArea>
+        </Card>
+      </r>
+    </div>
+  </div>
+  <[object Object] />
+</React.Fragment>
+`;

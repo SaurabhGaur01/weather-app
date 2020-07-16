@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Temperature Component should render correctly 1`] = `
+<React.Fragment>
+  <span
+    variant="h6"
+  >
+    Munich,de
+  </span>
+  <hr />
+  <form
+    component="fieldset"
+  >
+    <RadioGroup
+      aria-label="position"
+      name="position"
+      onChange={[Function]}
+      row={true}
+      value="F"
+    >
+      <label
+        className="makeStyles-labelControl-1"
+        control={
+          <radio
+            color="primary"
+          />
+        }
+        label="Celcius"
+        labelPlacement="end"
+        value="C"
+      />
+      <label
+        control={
+          <radio
+            color="primary"
+          />
+        }
+        label="Fahrenheit"
+        labelPlacement="end"
+        value="F"
+      />
+    </RadioGroup>
+  </form>
+</React.Fragment>
+`;

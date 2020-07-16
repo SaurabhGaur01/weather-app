@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content Component should render correctly 1`] = `
+<div
+  class="container"
+>
+  <div
+    class="row"
+  >
+    <div
+      className="col-md-2"
+    />
+    <div
+      class="col-md-8"
+    >
+      <[object Object]
+        className="root-container makeStyles-root-1"
+      >
+        <[object Object]>
+          <Loader
+            color="#123abc"
+            css={
+              Object {
+                "map": undefined,
+                "name": "agvke8",
+                "next": undefined,
+                "styles": "
+  display: block;
+  margin: 170px auto;
+  border-color: red;
+",
+                "toString": [Function],
+              }
+            }
+            loading={true}
+            size={60}
+          />
+          <[object Object] />
+        </[object Object]>
+      </[object Object]>
+    </div>
+    <div
+      className="col-md-2"
+    />
+  </div>
+</div>
+`;
+
+exports[`Content Component should render correctly when apiCallStatus is Success 1`] = `
+<div
+  class="container"
+>
+  <div
+    class="row"
+  >
+    <div
+      className="col-md-2"
+    />
+    <div
+      class="col-md-8"
+    >
+      <[object Object]
+        className="root-container makeStyles-root-1"
+      >
+        <[object Object]>
+          <Loader
+            color="#123abc"
+            css={
+              Object {
+                "map": undefined,
+                "name": "agvke8",
+                "next": undefined,
+                "styles": "
+  display: block;
+  margin: 170px auto;
+  border-color: red;
+",
+                "toString": [Function],
+              }
+            }
+            loading={false}
+            size={60}
+          />
+          <[object Object] />
+          <[object Object] />
+        </[object Object]>
+      </[object Object]>
+    </div>
+    <div
+      className="col-md-2"
+    />
+  </div>
+</div>
+`;

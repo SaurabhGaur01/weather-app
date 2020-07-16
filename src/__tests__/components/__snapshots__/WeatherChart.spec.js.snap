@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherChart Component should render correctly 1`] = `
+<div>
+  <BarChart
+    data={
+      Array [
+        Object {
+          "text": "03:00",
+          "value": 50,
+        },
+        Object {
+          "text": "04:00",
+          "value": 60,
+        },
+      ]
+    }
+    height={200}
+    margin={
+      Object {
+        "bottom": 30,
+        "left": 40,
+        "right": 20,
+        "top": 20,
+      }
+    }
+    width={500}
+  />
+</div>
+`;
