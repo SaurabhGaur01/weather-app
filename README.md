@@ -1,4 +1,4 @@
-# Weather Application - React/Redux
+# Weather Application - React/Redux/Thunk
 
 This application will allow you to check current weather and forecast of next 5 days of given city. Right now its default city is Dublin.
 
