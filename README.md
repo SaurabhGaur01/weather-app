@@ -4,6 +4,7 @@ This application will allow you to check current weather and forecast of next 5 
 
 This application utilises - React, Redux, Thunk, Jest & Enzyme Testing, OpenWeatherMap's API, Bootstrap, Material UI and Bar Charts.
 
+Click on [Demo](https://saurabhgaur01.github.io/weather-app/) for quick view.
 ## Installation & Usage
 
 Use the package manager [Node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to run this project on your local. After installing, run below command to install all dependencies-
