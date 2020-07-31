@@ -20,7 +20,7 @@ export const temperatureClass = makeStyles((theme) => ({
 
 export const weatherCardClass = makeStyles({
     root: {
-      maxWidth: 150,
+      maxWidth: 165,
       marginTop: 10,
     },
     title: {
